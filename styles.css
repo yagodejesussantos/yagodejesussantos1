@@ -1,0 +1,52 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url(IMG/onca.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+
+.animais__lista {
+    display: flex;
+    justify-content: center;
+}
+
+.imagens {
+    text-align: center;
+}
